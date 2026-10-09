@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Refeena Refath · AI/ML Engineer · AI CORE Portfolio</title>
+  <meta name="description" content="Refeena Refath, early-career AI/ML engineer from Chennai. Retrieval-augmented generation, FastAPI, ChromaDB, Gemini API and AI integration. Portfolio, projects and CV.">
+  <meta name="author" content="Refeena Refath">
+  <meta name="theme-color" content="#07090c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Refeena Refath · AI/ML Engineer">
+  <meta property="og:description" content="Building AI that answers from real knowledge. RAG, AI integration and automation.">
+  <meta property="og:image" content="https://refinah20.github.io/assets/og-card.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Boot sequence (short, skippable, skipped for reduced motion / repeat visits) -->
+  <div id="boot" class="boot" role="status" aria-live="polite" hidden>
+    <div class="boot-inner">
+      <div class="boot-ring" aria-hidden="true"></div>
+      <p class="boot-title">AI CORE</p>
+      <ol class="boot-log" id="boot-log"></ol>
+      <button type="button" class="btn btn-ghost btn-sm" id="boot-skip">Skip intro</button>
+    </div>
+  </div>
+
+  <header class="nav-shell" id="top">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Refeena Refath, home">
+        <span class="brand-core" aria-hidden="true"></span>
+        <span class="brand-text">AI&nbsp;CORE<span class="brand-sub">R. Refath</span></span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span class="sr-only">Menu</span><span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#home" data-nav="home">Home</a></li>
+        <li><a href="#about" data-nav="about">About</a></li>
+        <li><a href="#skills" data-nav="skills">Skills</a></li>
+        <li><a href="#experience" data-nav="experience">Experience</a></li>
+        <li><a href="#education" data-nav="education">Education</a></li>
+        <li><a href="#projects" data-nav="projects">Projects</a></li>
+        <li><a href="#certifications" data-nav="certifications">Certifications</a></li>
+        <li><a href="#github" data-nav="github">GitHub</a></li>
+        <li><a href="#contact" data-nav="contact">Contact</a></li>
+      </ul>
+      <div class="sys-status" aria-label="System status: online"><span class="sys-dot" aria-hidden="true"></span><span class="sys-label">SYSTEM ONLINE</span></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home" data-section>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" id="hero-label"></p>
+        <h1 class="hero-name" id="hero-name"></h1>
+        <p class="hero-headline" id="hero-headline"></p>
+        <p class="hero-intro" id="hero-intro"></p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">Explore My Portfolio</a>
+          <a class="btn btn-metal" id="cv-download" href="assets/Refeena_Refath_CV.pdf" download>Download CV</a>
+        </div>
+        <div class="hero-links">
+          <a class="chip-link" id="hero-github" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="chip-link" id="hero-linkedin" href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <span class="hero-loc" id="hero-loc"></span>
+        </div>
+      </div>
+      <div class="hero-stage">
+        <div class="hud" aria-hidden="true">
+          <svg class="hud-svg" viewBox="0 0 600 600">
+            <circle cx="300" cy="300" r="286" class="hud-c1"/>
+            <circle cx="300" cy="300" r="262" class="hud-c2"/>
+            <circle cx="300" cy="300" r="238" class="hud-c3"/>
+            <g class="hud-ticks"></g>
+            <path d="M300 14 a286 286 0 0 1 202 84" class="hud-arc a1"/>
+            <path d="M586 300 a286 286 0 0 1 -84 202" class="hud-arc a2"/>
+            <path d="M98 502 a286 286 0 0 1 -84 -202" class="hud-arc a3"/>
+          </svg>
+          <div class="hud-tag t1"><span>CORE</span> STABLE</div>
+          <div class="hud-tag t2"><span>RAG</span> GROUNDED</div>
+          <div class="hud-tag t3"><span>MODE</span> SEEKING ROLE</div>
+        </div>
+        <canvas id="robot-canvas" class="robot-canvas" aria-label="Animated 3D robot head with a glowing AI core" role="img"></canvas>
+        <div class="robot-fallback" id="robot-fallback" hidden aria-hidden="true">
+          <div class="fb-head"><span class="fb-eye"></span><span class="fb-eye"></span></div>
+          <div class="fb-core"></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" data-section>
+      <div class="section-head"><span class="sec-code">01 · IDENTITY MODULE</span><h2>About</h2></div>
+      <div class="about-grid">
+        <figure class="id-card">
+          <div class="id-photo-wrap">
+            <img id="portrait" src="assets/refeena-portrait.jpg" alt="Portrait of Refeena Refath" width="377" height="669" loading="lazy">
+            <span class="scanline" aria-hidden="true"></span>
+          </div>
+          <figcaption class="id-meta">
+            <div class="id-row"><span>DESIGNATION</span><b id="id-role"></b></div>
+            <div class="id-row"><span>BASE</span><b id="id-loc"></b></div>
+            <div class="id-row"><span>CORE STATUS</span><b class="ok">ACTIVE · AVAILABLE FOR ROLES</b></div>
+          </figcaption>
+          <span class="screw s1" aria-hidden="true"></span><span class="screw s2" aria-hidden="true"></span><span class="screw s3" aria-hidden="true"></span><span class="screw s4" aria-hidden="true"></span>
+        </figure>
+        <div class="about-copy">
+          <p class="lead" id="about-summary"></p>
+          <div class="about-cards" id="about-cards"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" data-section>
+      <div class="section-head"><span class="sec-code">02 · SYSTEM DIAGNOSTICS</span><h2>Skills</h2></div>
+      <p class="section-note">Each module shows an honest level and where I used the skill. No made-up percentages.</p>
+      <div class="legend" id="skill-legend"></div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience" data-section>
+      <div class="section-head"><span class="sec-code">03 · MISSION LOGS</span><h2>Experience</h2></div>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education" data-section>
+      <div class="section-head"><span class="sec-code">04 · KNOWLEDGE ARCHIVE</span><h2>Education &amp; Training</h2></div>
+      <div class="edu-grid" id="education-list"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" data-section>
+      <div class="section-head"><span class="sec-code">05 · PROJECT LAB</span><h2>Projects</h2></div>
+      <div class="filters" role="group" aria-label="Filter projects" id="project-filters"></div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications" data-section>
+      <div class="section-head"><span class="sec-code">06 · CREDENTIAL VAULT</span><h2>Certifications</h2></div>
+      <div class="cert-grid" id="cert-list"></div>
+    </section>
+
+    <!-- GITHUB -->
+    <section class="section" id="github" data-section>
+      <div class="section-head"><span class="sec-code">07 · SOURCE TERMINAL</span><h2>GitHub</h2></div>
+      <div class="gh-top">
+        <p class="section-note">Live public repositories from my GitHub accounts, newest activity first. Coursework repositories are included.</p>
+        <div class="gh-buttons" id="gh-buttons"></div>
+      </div>
+      <div class="repo-grid" id="repo-grid" aria-live="polite"><p class="state">Connecting to GitHub…</p></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" data-section>
+      <div class="section-head"><span class="sec-code">08 · COMMUNICATION TERMINAL</span><h2>Initiate Contact</h2></div>
+      <div class="contact-grid">
+        <div class="contact-copy">
+          <p class="lead">Hiring for AI integration, implementation or AI-powered products? I'd like to hear from you.</p>
+          <ul class="contact-links" id="contact-links"></ul>
+        </div>
+        <form class="console" id="contact-form" novalidate>
+          <div class="console-bar" aria-hidden="true"><span></span><span></span><span></span><em>secure_channel.sh</em></div>
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required maxlength="120">
+          <label for="cf-email">Email</label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" required maxlength="160">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required maxlength="4000"></textarea>
+          <p class="form-hint" id="form-mode"></p>
+          <button class="btn btn-primary" type="submit" id="cf-submit">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Refeena Refath · Built with HTML, CSS, JavaScript and Three.js.</p>
+    <a href="#home" class="btn btn-ghost btn-sm">Back to top ↑</a>
+  </footer>
+
+  <!-- Robot assistant -->
+  <button class="bot-fab" id="bot-fab" type="button" aria-expanded="false" aria-controls="bot-panel" aria-label="Open portfolio assistant">
+    <span class="bot-face" aria-hidden="true"><span class="bot-eye"></span><span class="bot-eye"></span></span>
+    <span class="bot-bubble" id="bot-bubble">Ask me about Refeena</span>
+  </button>
+  <section class="bot-panel" id="bot-panel" hidden aria-label="Portfolio assistant">
+    <header class="bot-head">
+      <span class="bot-face sm" aria-hidden="true"><span class="bot-eye"></span><span class="bot-eye"></span></span>
+      <div><b>CORE GUIDE</b><small>Answers from this portfolio only. No live AI model.</small></div>
+      <button type="button" class="bot-close" id="bot-close" aria-label="Close assistant">×</button>
+    </header>
+    <div class="bot-log" id="bot-log" aria-live="polite"></div>
+    <div class="bot-chips" id="bot-chips"></div>
+    <form class="bot-form" id="bot-form">
+      <label class="sr-only" for="bot-input">Ask a question</label>
+      <input id="bot-input" type="text" placeholder="Ask about skills, projects, contact…" autocomplete="off" maxlength="200">
+      <button class="btn btn-primary btn-sm" type="submit">Ask</button>
+    </form>
+  </section>
+
+  <a class="to-top" id="to-top" href="#home" aria-label="Back to top">↑</a>
+
+  <noscript><p class="noscript">This portfolio needs JavaScript for its content. You can still <a href="assets/Refeena_Refath_CV.pdf">download the CV</a> or visit <a href="https://www.linkedin.com/in/refeena-refath-4668a8336">LinkedIn</a>.</p></noscript>
+
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+  <script type="module" src="js/robot.js"></script>
+</body>
+</html>
